@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="403.0" prefWidth="682.0" style="-fx-background-color: #009A83;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareconcept.HomePageController">
+   <children>
+      <Button fx:id="profile_button_home_page" layoutX="551.0" layoutY="53.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" text="Profile" />
+      <Button fx:id="map_button_home_page" layoutX="551.0" layoutY="184.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" text="Map" />
+      <Button fx:id="wallet_button_home_page" layoutX="551.0" layoutY="252.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" text="        Connect Wallet" />
+      <Button fx:id="rooms_button_home_page" layoutX="551.0" layoutY="114.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="130.0" style="-fx-background-color: #ffffff;" text="Rooms" />
+      <ImageView fitHeight="36.0" fitWidth="35.0" layoutX="551.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@locator.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="42.0" layoutX="551.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-wallet-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="151.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sekil.png" />
+         </image>
+      </ImageView>
+      <Line endX="152.0" endY="7.62939453125E-6" layoutX="399.0" layoutY="71.0" startX="-70.727294921875" startY="98.39999389648438" stroke="#55ff00" />
+      <Line endX="196.0" endY="-91.0" layoutX="355.0" layoutY="293.0" startX="-27.43438720703125" startY="-122.89289855957031" stroke="#55ff00" />
+      <Line endX="275.0" endY="-41.5" layoutX="276.0" layoutY="317.0" startX="51.56561279296875" startY="-146.8928985595703" stroke="#55ff00" />
+      <Line endX="257.0" endY="-126.0" layoutX="294.0" layoutY="258.0" startX="33.56561279296875" startY="-87.89289855957031" stroke="#55ff00" />
+      <Line endX="36.00001525878906" endY="94.39999389648438" layoutX="115.0" layoutY="71.0" startX="36.00001525878906" startY="144.39999389648438" stroke="#55ff00" />
+      <Line endX="15.56561279296875" endY="-103.89289855957031" layoutX="312.0" layoutY="274.0" startX="15.56561279296875" startY="-61.600006103515625" stroke="#55ff00" />
+
+   </children>
+</AnchorPane>

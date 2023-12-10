@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff; -fx-background-image: url('oyunkolu.jpeg')" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareconcept.RoomsController">   <children>
+      <Button fx:id="valorant_button" layoutX="105.0" layoutY="138.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" style="-fx-background-color: #cc330c;" text="Valorant" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="basketball_button" layoutX="105.0" layoutY="188.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="90.0" style="-fx-background-color: #cc5f0c;" text="Basketball" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="tennis_button" layoutX="105.0" layoutY="239.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="89.0" style="-fx-background-color: #bfe32d;" text="Tennis" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="activate_deactivate_button" layoutX="23.0" layoutY="319.0" mnemonicParsing="false" style="-fx-background-color: #006552;" text="Activate/Deactivate" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="send_request_button" layoutX="199.0" layoutY="319.0" mnemonicParsing="false" style="-fx-background-color: #FAAAC7;" text="Send Request" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="get_back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <AnchorPane layoutX="333.0" prefHeight="408.0" prefWidth="266.0" style="-fx-background-color: #FFC75F;">
+         <children>
+            <TableView fx:id="active_users_table_view" layoutX="65.0" layoutY="14.0" prefHeight="338.0" prefWidth="135.0">
+              <columns>
+                <TableColumn fx:id="active_users_column" prefWidth="134.40001220703124" text="active_users" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+    <ImageView fitHeight="31.0" fitWidth="41.0" layoutX="55.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@valo.png" />
+        </image>
+    </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="41.0" layoutX="55.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@basket.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="56.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tenis.png" />
+         </image>
+      </ImageView>
+    
+
+  
+
+
+
+   </children>
+</AnchorPane>

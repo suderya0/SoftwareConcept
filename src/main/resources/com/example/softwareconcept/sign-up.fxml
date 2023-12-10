@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareconcept.SignUpController">
+   <children>
+      <TextField fx:id="sign_up_username_field" layoutX="335.0" layoutY="161.0" promptText="username" />
+      <TextField fx:id="sign_up_password_field" layoutX="335.0" layoutY="200.0" promptText="password" />
+      <Button fx:id="sign_up_real" layoutX="360.0" layoutY="301.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="99.0" style="-fx-background-color: #FFC75F;" text="Sign-Up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Label layoutX="335.0" layoutY="65.0" prefHeight="64.0" prefWidth="150.0" text="Let's Start" textFill="#f2a05d">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="400.0" prefWidth="258.0" style="-fx-background-color: #006552;">
+         <children>
+            <Button fx:id="get_back" layoutX="8.0" layoutY="2.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #009A83;" text=" Back" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <ImageView fitHeight="154.0" fitWidth="209.0" layoutX="38.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sekil.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="authentication_field" layoutX="335.0" layoutY="242.0" promptText="authentication" />
+   </children>
+   
+</AnchorPane>

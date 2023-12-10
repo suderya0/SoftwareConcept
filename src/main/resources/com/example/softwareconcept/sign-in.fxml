@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="646.0" style="-fx-background-color: #006552;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareconcept.SignInController">
+   <children>
+      <TextField fx:id="sign_in_username_field" layoutX="417.0" layoutY="85.0" promptText="Username" />
+      <Button fx:id="log_in_home_button" layoutX="511.0" layoutY="177.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="72.0" style="-fx-background-color: #ffffff;" text="Log-In" textFill="#009a83">
+         <font>
+            <Font name="Lucida Bright Demibold" size="16.0" />
+         </font></Button>
+      <Button fx:id="sign_up_home_button" layoutX="399.0" layoutY="176.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="85.0" style="-fx-background-color: #ffffff;" text="Sign-Up" textFill="#009a83">
+         <font>
+            <Font name="Lucida Bright Demibold" size="16.0" />
+         </font></Button>
+      <Button fx:id="log_in_google_button" layoutX="410.0" layoutY="278.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="164.0" style="-fx-background-color: #ffffff;" text="    Log-In With Google" textFill="#009a83">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="forget_password_button" layoutX="442.0" layoutY="238.0" mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Forget Password" textFill="#009a83">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="410.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@google.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="423.0" prefWidth="294.0" style="-fx-background-color: #ffffff;">
+         <children>
+
+            <ImageView fitHeight="178.0" fitWidth="231.0" layoutX="23.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@newlogo.jpeg" />
+               </image>
+            </ImageView>
+            <CubicCurve controlX1="-50.0" controlX2="23.600006103515625" controlY1="-100.0" controlY2="124.79998779296875" endX="156.39999389648438" endY="-43.19999694824219" fill="WHITE" layoutX="138.0" layoutY="242.0" startX="-138.0" startY="-0.1999969482421875" stroke="#00998246" />
+         </children>
+      </AnchorPane>
+      <Line endX="100.0" layoutX="492.0" layoutY="164.0" startX="-100.0" stroke="WHITE" />
+      <PasswordField fx:id="sign_in_password_field" layoutX="417.0" layoutY="128.0" promptText="Password" />
+      <Line endX="35.5" endY="-0.5" layoutX="356.0" layoutY="165.0" startX="35.5" startY="47.80000305175781" stroke="WHITE" />
+      <Line endX="18.5" endY="36.0" layoutX="574.0" layoutY="128.0" startX="18.5" startY="-6.1999969482421875" stroke="WHITE" />
+   </children>
+</AnchorPane>

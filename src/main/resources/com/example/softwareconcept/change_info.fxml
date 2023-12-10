@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.softwareconcept.ChangeInfoController">
+   <children>
+      <TextField fx:id="change_username_field" layoutX="78.0" layoutY="85.0" promptText="Change Name" />
+      <TextField fx:id="change_password_field" layoutX="78.0" layoutY="167.0" promptText="Change Password" />
+      <TextField fx:id="change_auth_field" layoutX="79.0" layoutY="255.0" promptText="Change Auth Info" />
+      <Button fx:id="change_name_button" layoutX="248.0" layoutY="85.0" mnemonicParsing="false" text="Change Name" />
+      <Button fx:id="change_password_button" layoutX="248.0" layoutY="167.0" mnemonicParsing="false" text="Change Password" />
+      <Button fx:id="change_auth_button" layoutX="248.0" layoutY="255.0" mnemonicParsing="false" text="Change Auth" />
+      <Button fx:id="get_back" layoutX="14.0" layoutY="8.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
